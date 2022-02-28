@@ -1,0 +1,6 @@
+setwd("Z:/CodingClub/data-analysis")
+dat <- read.csv("emp-records.txt")
+fval = nrow(subset(dat, Gender == "F"))
+mval = nrow(subset(dat, Gender == "M"))
+print(fval)
+print(mval)
