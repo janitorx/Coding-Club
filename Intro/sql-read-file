@@ -1,0 +1,3 @@
+Select count(*) from emp_records where emp_records.Gender = “M”
+Select count(*) from emp_records where emp_records.Gender = “F”
+Select count(*) from emp_records where (emp_records.Gender <> “M”) or (emp_records.Gender <> “F”) 
